@@ -18,8 +18,9 @@ const fruits = () => {
         const fruit3 = 'banana';
     }
     console.log(fruit1, //Function scoope
-        fruit2, //Block scoope
-        fruit3); //Block scoope
+        // fruit2, //Block scoope
+        // fruit3); //Block scoope
+    );
 }
 
 fruits();

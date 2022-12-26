@@ -33,3 +33,20 @@ function sumar(num, ...values){
 }
 
 sumar(12,23,423,52,32,23,235,23);
+
+function solution(
+    json1 = {
+    name: "Mr. Michi",
+    food: "Pescado"
+  }, json2 = {
+    age: 12,
+    color: "Blanco"
+    }
+  ) {
+    return {...json1,...json2}// Tu código aquí 👈
+  }
+  
+  solution({
+    name: "Bigotes",
+    food: "Pollito"
+})
