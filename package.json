@@ -1,0 +1,25 @@
+{
+  "name": "8_1_ecmascript",
+  "version": "1.0.0",
+  "description": "Curso de ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipemalz/8_1_ecmascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "platzi",
+    "curso"
+  ],
+  "author": "Felipe Moreno <sinister012@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipemalz/8_1_ecmascript/issues"
+  },
+  "homepage": "https://github.com/pipemalz/8_1_ecmascript#readme"
+}
