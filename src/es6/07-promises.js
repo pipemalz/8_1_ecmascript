@@ -91,3 +91,22 @@ sumar(20, 20).then(res => res).then(res => {
     mostrar()
         .then(res => console.log(res))
         .catch(error => console.log(error))
+
+
+function resolver(num){
+    return new Promise((resolve, reject) => {
+        if(num > 10){
+            resolve('Exito en la operacion');
+        }else{
+            reject('Operacion fallida');
+        }
+    })
+}
+
+resolver(11)
+    .then((res) => {
+        console.log(res);
+    })
+    .catch((error)=> {
+        console.log(error);
+    })

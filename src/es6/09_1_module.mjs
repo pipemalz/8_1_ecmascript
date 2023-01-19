@@ -10,7 +10,7 @@ const obj = {
   };
 
 const myFun = () => {
-    console.log('Hello');
+    console.log('Hello', obj);
 }
 
 export default myFun;

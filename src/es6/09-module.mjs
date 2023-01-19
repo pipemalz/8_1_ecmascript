@@ -1,4 +1,4 @@
-import myFun from './09_1_module.mjs';
+import myFun from "./09_1_module.mjs";
 
 myFun();
 

@@ -1,7 +1,15 @@
 const data = {
-    animals : ['lion', 'elephant', 'dog', 'cat', 'bird'],
-    week : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-    pc : ['display', 'case', 'mouse', 'keyboard']
+  animals: ["lion", "elephant", "dog", "cat", "bird"],
+  week: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
+  pc: ["display", "case", "mouse", "keyboard"],
 };
 
 console.log(`
@@ -21,5 +29,3 @@ console.log(`
 
     ${Object.values(data)}
 `);
-
-

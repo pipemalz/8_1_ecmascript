@@ -5,4 +5,4 @@ console.log(arr.includes(4));
 let str = 'Me llamo felipe';
 console.log(str.includes('felipe'));
 console.log(str.includes('Felipe'));
-console.log(str.includes('Felipe'.toLocaleLowerCase()));
+console.log(str.includes("Felipe".toLocaleLowerCase()));

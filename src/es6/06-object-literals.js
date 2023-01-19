@@ -18,3 +18,16 @@ function newUser(user,age,country,Uid){
 const user = newUser('user001', 20, 'SWE', '03012');
 
 console.log(user);
+
+
+const uno = 'one';
+const dos = 'two';
+const tres = 'three';
+
+const obj = {
+    uno,
+    dos,
+    tres
+};
+
+console.log(obj);

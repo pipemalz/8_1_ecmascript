@@ -22,5 +22,3 @@ const fruits = () => {
         // fruit3); //Block scoope
     );
 }
-
-fruits();
